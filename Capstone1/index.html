@@ -150,10 +150,33 @@
 						<div class="mb-3">
 						  <label for="yourMessage" class="form-label">Your Message</label>
 						  <textarea class="form-control" id="yourMessage" rows="3"></textarea>
-						</div>
-						<button type="submit" class="btn btn-primary col-1 ms-auto me-5">Submit</button>
-					</div>
 
+						<!-- Button trigger modal -->
+						
+						<button type="button" class="btn btn-primary bg-dark mt-3 justify-content-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+						  Send Email
+						</button>
+						
+
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header text-dark">
+						       
+						        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						      </div>
+						      <div class="modal-body text-dark">
+						      	<p>Message Successfully Sent</p>
+						        
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+						        
+						      </div>
+						    </div>
+						  </div>
+						</div>
 				</div>	
 
 			</form>
